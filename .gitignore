@@ -1,0 +1,9 @@
+tmp/
+.claude/
+.playwright-mcp/
+
+CLAUDE.md
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
