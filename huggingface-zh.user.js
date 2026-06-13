@@ -2073,6 +2073,8 @@
         [/^Datasets — (\d+)%$/, "数据集 — $1%"],
         [/^([<>=]?\s*)(\d+)% used$/, "已用 $1$2%"],
         [/^([\d.]+[kMGTP]?B) params?$/, "$1 参数"],
+        [/^\+ (\d+) Spaces$/, "+ $1 应用空间"],
+        [/^View \+(\d+) variants?$/, "查看 +$1 个变体"],
         [/^(\d+) repos · ([\d.]+ [kMGTP]?B)$/, "$1 个仓库 · $2"],
         [/^of ([\d.]+ [kMGTP]?B)$/, "/ $1"],
 [/^You have a total of ([\d.]+) TFLOPS of computing power\.$/, "你总共拥有 $1 TFLOPS 的计算能力"],
