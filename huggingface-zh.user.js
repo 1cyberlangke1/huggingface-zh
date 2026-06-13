@@ -6,6 +6,7 @@
 // @author       1cyberlangke1
 // @license      MIT
 // @match        https://huggingface.co/*
+// @match        https://hf-mirror.com/*
 // @run-at       document-start
 // @grant        GM_addStyle
 // @grant        GM_registerMenuCommand
