@@ -8,7 +8,6 @@
 
 - 中文化 Hugging Face 网页界面（导航、按钮、标签、提示等）
 - 支持模型详情、数据集详情、 Spaces、设置页面等
-- 支持动态加载内容的翻译（MutationObserver 监听）
 - 所有翻译均在本地完成，无外部 API 调用
 - 依赖 Tampermonkey / Greasemonkey 运行
 
