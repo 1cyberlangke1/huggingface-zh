@@ -2036,6 +2036,7 @@
         [/^#(\d+) opened over (\d+) years? ago by$/, "#$1 超过 $2 年前打开 由 "],
         [/^#(\d+) opened (\d+) days? ago by$/, "#$1 于 $2 天前打开 由 "],
         [/^#(\d+) opened (\d+) years? ago by$/, "#$1 $2 年前打开 由 "],
+        [/^(\d+) following$/, "$1 关注中"],
         [/^(\d+) months? ago$/, "$1 个月前"],
         [/^last (\d+) days?$/, "过去 $1 天"],
         [/updated (\d+) collections?/i, "更新了 $1 个收藏集"],
