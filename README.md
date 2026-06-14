@@ -14,7 +14,7 @@
 ## 安装
 
 1. 安装 [Tampermonkey](https://www.tampermonkey.net/) 浏览器扩展
-2. [点击安装](huggingface-zh.user.js)
+2. [点击安装](https://greasyfork.org/zh-CN/scripts/582400-hugging-face-%E4%B8%AD%E6%96%87%E5%8C%96%E6%8F%92%E4%BB%B6)
 3. 访问 Hugging Face 页面即可
 
 ## 说明
@@ -22,6 +22,7 @@
 - 仅提供**简体中文**翻译
 - 翻译由 **AI 辅助完成**，可能存在错误翻译或不准确的情况
 - 主要翻译界面 UI 文本，用户生成内容（模型卡片、数据集描述等）不在翻译范围内
+  
 ## 许可
 
 [MIT](LICENSE)
