@@ -467,6 +467,13 @@
         "Splits": "拆分",
         "Features": "特征",
 
+        // 数据集查看器不可用提示
+        "The dataset viewer is not available because its heuristics could not detect any": "数据集查看器不可用，因为其启发式规则未能检测到任何",
+        "supported data files": "受支持的数据文件",
+        ". You can try": "。你可以尝试",
+        "some data files, or": "一些数据文件，或",
+        "the data files location manually.": "数据文件的位置。",
+
         // Space 详情页
         "App": "应用",
         "Source": "源代码",
@@ -535,6 +542,8 @@
         "Help": "帮助",
         "Feedback": "反馈",
         "Report": "报告",
+        "uploading": "上传",
+        "configuring": "手动配置",
 
         // 用户菜单
         "New": "新建",
