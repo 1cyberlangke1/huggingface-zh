@@ -472,6 +472,7 @@
         Uses: "用途",
         "How to use": "使用方法",
         "Intended use": "预期用途",
+        "Dataset used to train": "用于训练的数据集",
 
         // 数据集详情页
         Preview: "预览",

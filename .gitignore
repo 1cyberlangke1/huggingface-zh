@@ -1,7 +1,7 @@
 tmp/
 .claude/
 .playwright-mcp/
-
+.sisyphus/
 CLAUDE.md
 .DS_Store
 Thumbs.db
