@@ -323,6 +323,32 @@
         "Share your work with the world and build your ML profile.":
           "与世界分享你的工作，建立你的机器学习档案",
 
+        // 论文详情页
+        "Get this paper in your agent:": "把这篇论文给你的智能体",
+        "Don't have the latest CLI?": "没有最新的 CLI 吗？",
+        "Models citing this paper": "引用本文的模型",
+        "Datasets citing this paper": "引用本文的数据集",
+        "Spaces citing this paper": "引用本文的应用空间",
+        "Collections including this paper": "包含本文的收藏集",
+        "Paper author": "论文作者",
+        "Paper submitter": "论文提交者",
+        "Authors:": "作者：",
+        "Copy markdown": "复制 Markdown",
+        "Copy page as Markdown for LLMs": "复制页面为 Markdown（供 LLM 使用）",
+        "View as Markdown": "以 Markdown 查看",
+        "View this paper as plain text": "以纯文本查看此论文",
+        "Open in HuggingChat": "在 HuggingChat 中打开",
+        "Ask questions about this paper": "提出关于此论文的问题",
+        "Open in ChatGPT": "在 ChatGPT 中打开",
+        "Connect to MCP Client": "连接到 MCP 客户端",
+        "Use with Cursor, VS Code, etc.": "与 Cursor、VS Code 等搭配使用",
+        "View arXiv page": "查看 arXiv 页面",
+        "View PDF": "查看 PDF",
+        "Project page": "项目页面",
+        "#1 Paper of the day": "今日最佳论文",
+        "Submitted by": "提交由",
+        "No Space linking this paper": "没有应用空间链接这个论文",
+
         // Accelerate your ML
         "Accelerate your ML": "加速机器学习",
         "We provide paid Compute and Enterprise solutions.": "我们提供付费计算和企业解决方案",
@@ -1994,6 +2020,10 @@
         [/Updated about (\d+) hours? ago/, "更新于约 $1 小时前"],
         [/Updated about (\d+) minutes? ago/, "更新于约 $1 分钟前"],
         [/Updated just now/, "刚刚更新"],
+        [/^on (\d+月\d+日)$/, "于 $1"],
+        [/^Browse (\d+) collections? that include this paper$/, "浏览 $1 个包含此论文的收藏集"],
+        [/^Published on (\w+ \d{1,2})$/, "于 $1 发布"],
+        [/^Cite arxiv\.org\/abs\/([\d.]+) in a Space README\.md to link it from this page\.$/, "在 Space README.md 中引用 arXiv:$1 以从此页面链接。"],
         [/^Added (\d+月\d+日)$/, "已添加 $1"],
         // 月份日期转换 Jan 25 → 1月25日（仅匹配1-2位数字日期）
         [/Jan (\d{1,2})\b/, "1月$1日"],
