@@ -123,6 +123,7 @@
         Forum: "论坛",
         "Log In": "登录",
         "Sign Up": "注册",
+        "All docs": "所有文档",
 
         // 解决方案
         "Team & Enterprise": "团队与企业版",
@@ -2023,7 +2024,10 @@
         [/^on (\d+月\d+日)$/, "于 $1"],
         [/^Browse (\d+) collections? that include this paper$/, "浏览 $1 个包含此论文的收藏集"],
         [/^Published on (\w+ \d{1,2})$/, "于 $1 发布"],
-        [/^Cite arxiv\.org\/abs\/([\d.]+) in a Space README\.md to link it from this page\.$/, "在 Space README.md 中引用 arXiv:$1 以从此页面链接。"],
+        [
+          /^Cite arxiv\.org\/abs\/([\d.]+) in a Space README\.md to link it from this page\.$/,
+          "在 Space README.md 中引用 arXiv:$1 以从此页面链接。",
+        ],
         [/^Added (\d+月\d+日)$/, "已添加 $1"],
         // 月份日期转换 Jan 25 → 1月25日（仅匹配1-2位数字日期）
         [/Jan (\d{1,2})\b/, "1月$1日"],
