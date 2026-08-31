@@ -1,8 +1,12 @@
 tmp/
+
+#  AI 
 .claude/
 .playwright-mcp/
 .sisyphus/
 CLAUDE.md
+
+# 系统
 .DS_Store
 Thumbs.db
 *.swp
