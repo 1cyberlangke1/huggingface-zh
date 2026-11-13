@@ -1035,7 +1035,10 @@
         "Organization Username": "组织用户名",
         "Organization type": "组织类型",
         University: "大学",
+        article: "文章",
+        Article: "文章",
         Classroom: "班级",
+        university: "大学",
         "Non-profit": "非营利",
         Government: "政府",
         "Organization Full name": "组织全名",
@@ -1653,6 +1656,12 @@
         "Monthly invoices": "月度发票",
 
         // 个人主页
+        "Organization Card": "组织卡",
+        "About org cards": "关于组织卡",
+        "View all Papers": "查看所有论文",
+        "Team members": "团队成员",
+        "Activity Feed": "动态",
+        "Request to join this org": "申请加入此组织",
         "Add status": "添加状态",
         followers: "关注者",
         following: "关注中",
@@ -1846,7 +1855,6 @@
         "Model tree for": "模型树：",
         "Space using": "使用的应用空间：",
         "Spaces using": "使用的应用空间：",
-        "+ 2 Spaces": "+ 2 应用空间",
         Benefits: "优势",
         "Best Practices": "最佳实践",
         Column: "列",
@@ -2014,8 +2022,10 @@
       },
 
       regexp: [
-        [/(\d+) templates?/, "$1 个模板"],
-        [/Updated (\d+) days? ago/, "更新于 $1 天前"],
+        [/(\d+)\s+Team members?/, "$1 名团队成员"],
+        [(/(\d+) templates?/, "$1 个模板")],
+        [/\+ (\d+) Spaces?/, "+ $1 应用空间"],
+        [(/Updated (\d+) days? ago/, "更新于 $1 天前")],
         [/Updated (\d+) hours? ago/, "更新于 $1 小时前"],
         [/Updated (\d+) minutes? ago/, "更新于 $1 分钟前"],
         [/Updated about (\d+) hours? ago/, "更新于约 $1 小时前"],
@@ -2141,6 +2151,7 @@
           /^The task_categories "(.+?)" is not in the official list: (.+)$/,
           '任务类别 "$1" 不在官方列表中：$2',
         ],
+        [/View\s*(\d+)\s*个(.+)/, "查看 $1 个$2"],
       ],
 
       selector: [
