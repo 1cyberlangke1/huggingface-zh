@@ -1656,6 +1656,12 @@
         "Monthly invoices": "月度发票",
 
         // 个人主页
+        pinned: "置顶",
+        "'s collections": "的收藏集",
+        Spaces: "应用空间",
+        authored: "发表了",
+        "'s Spaces": "的应用空间",
+        Paused: "暂停",
         "Organization Card": "组织卡",
         "About org cards": "关于组织卡",
         "View all Papers": "查看所有论文",
