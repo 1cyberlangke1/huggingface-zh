@@ -837,7 +837,7 @@
         "liked a Space": "赞了一个空间",
         "liked a dataset": "赞了一个数据集",
         submitted: "提交了",
-        "a paper": "一篇论文",
+        "a paper": "1 篇论文",
         "to Daily Papers": "到每日论文",
         "replied to their post": "回复了帖子",
         "view reply": "查看回复",
@@ -2035,6 +2035,7 @@
       },
 
       regexp: [
+        [/(\d+)\s*papers?/gi, "$1 篇论文"],
         [/(\d+)\s+Team members?/, "$1 名团队成员"],
         [(/(\d+) templates?/, "$1 个模板")],
         [/\+ (\d+) Spaces?/, "+ $1 应用空间"],
