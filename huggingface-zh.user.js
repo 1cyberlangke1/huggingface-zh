@@ -1665,7 +1665,7 @@
         pinned: "置顶",
         "'s collections": "的收藏集",
         "'s papers": "的论文",
-        Spaces: "应用空间",
+        spaces: "应用空间",
         authored: "发表了",
         "'s Spaces": "的应用空间",
         Paused: "暂停",
